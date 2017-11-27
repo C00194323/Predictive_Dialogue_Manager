@@ -1,0 +1,27 @@
+{
+  "Intro": {
+    "Background": "In a world on the brink of destruction, You are the only hope try find other survivers to save the human race"
+  },
+  "StoryLine": {
+    "Q1": {
+      "Question1": "You hear a noise in a house what do you do ?",
+      "Q1Answers": {
+        "Answer1": {
+          "text": "You go around the house looking for a way in",
+          "Path": "Q2"
+        },
+        "Answer2": {
+          "text": "You kick down the door",
+          "Path": "Q3"
+        }
+      }
+    },
+    "Q2": {
+
+    },
+    "Q3": {
+
+    }
+
+  }
+}
