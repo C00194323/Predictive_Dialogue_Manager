@@ -26,8 +26,10 @@ class Renderer {
 
 	// size of window in pixels
 	Size2D windowSize;
+
 	//position of window in world coordinates
 	//change these if you want to zoom or pan
+
 	Point2D viewportBottomLeft;
 	Size2D viewportSize;
 	SDL_Surface* renderSurface = NULL;
