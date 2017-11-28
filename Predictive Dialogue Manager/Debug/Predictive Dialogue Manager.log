@@ -1,3 +1,6 @@
-﻿  Source.cpp
-  Predictive Dialogue Manager.vcxproj -> C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\Debug\Predictive Dialogue Manager.exe
-  Predictive Dialogue Manager.vcxproj -> C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\Debug\Predictive Dialogue Manager.pdb (Partial PDB)
+﻿  Menu.cpp
+  Generating Code...
+  Compiling...
+  Source.cpp
+c:\users\gameuser\desktop\fyp predictive dialogue manager\predictive_dialogue_manager\predictive_dialogue_manager\predictive dialogue manager\source.cpp(1): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

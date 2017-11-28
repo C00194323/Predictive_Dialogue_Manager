@@ -19,7 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicTypes.h" />
+    <ClInclude Include="EventListener.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="TextureContainer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FYP_Json.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -78,11 +90,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)\SDL2-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)\SDL2-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\lib\x64</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2main.lib</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -93,6 +105,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -101,13 +116,13 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive Dialogue Manager\SDL2-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive Dialogue Manager\SDL2-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\lib\x64</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -123,6 +138,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,9 +1,9 @@
-#include <SDL.h>
-#include <SDL_image.h>
+#include "SDL2\include\SDL.h"
+#include "SDL2\include\SDL_image.h"
 #include <iostream>
 
 using namespace std;
-
+#undef main
 int main(int argc, char* argv[])
 {
 

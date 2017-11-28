@@ -8,20 +8,50 @@
       "Q1Answers": {
         "Answer1": {
           "text": "You go around the house looking for a way in",
-          "Path": "Q2"
+          "Path": "Q2",
+          "Categorie":"Calm"
         },
         "Answer2": {
           "text": "You kick down the door",
-          "Path": "Q3"
+          "Path": "Q3",
+          "Categorie": "Rash"
         }
       }
     },
     "Q2": {
-
+      "Question2": "You find a broken window and see something moving what do you do ",
+      "Q2Answers": {
+        "Answer1": {
+          "text": "Walk away from the house",
+          "Path": "Q4",
+          "Categorie": "Normal"
+        },
+        "Answer2": {
+          "text": "Sneak into the house to see if there is any survivors ",
+          "Path": "Q5",
+          "Categorie": "Calm"
+        },
+        "Answer3": {
+          "text": "You run into the house and attack the monster",
+          "Path": "Q5",
+          "Categorie": "Rash"
+        }
+      }
     },
     "Q3": {
-
+      "Question3": "",
+      "Q3Answers": {
+        "Answer1": {
+          "text": "",
+          "Path": "Q8",
+          "Categorie": "Calm"
+        },
+        "Answer2": {
+          "text": "",
+          "Path": "Q9",
+          "Categorie": "Rash"
+        }
+      }
     }
-
   }
 }
