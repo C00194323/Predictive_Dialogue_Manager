@@ -22,6 +22,7 @@
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicTypes.h" />
@@ -29,6 +30,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Sprite.h" />
     <ClInclude Include="TextureContainer.h" />
   </ItemGroup>
   <ItemGroup>

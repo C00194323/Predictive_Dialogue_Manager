@@ -25,9 +25,7 @@ int main(int argc, char* argv[])
 			{
 				isRunning = false;
 			}
-	
 		}
-
 	}
 	SDL_Quit();
 	return 0;
