@@ -1,6 +1,7 @@
 #pragma once
 #include "GameObject.h"
 #include "EventListener.h"
+#include "SDL2\include\SDL_ttf.h"
 #include <vector>
 
 class Menu

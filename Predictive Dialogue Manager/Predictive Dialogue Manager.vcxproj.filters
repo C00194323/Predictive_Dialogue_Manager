@@ -76,7 +76,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\FYP_Json.json">
+    <None Include="FYP_Json.json">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

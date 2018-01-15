@@ -1,7 +1,7 @@
 #include "Menu.h"
 
 Menu::Menu(Renderer & r){
-	path = "background.png";
+	path = "Background.png";
 	img = loadSurface(r);
 	loadSurface(r, 0, 0, 800, 600);
 
@@ -136,7 +136,7 @@ void Menu::loadSurface(Renderer& r, int x, int y, int w, int h)
 ////loading a default font with colour and size
 void Menu::loadFont()
 {
-	textFont = TTF_OpenFont("AGENCYR.ttf", 50);
+	textFont = TTF_OpenFont("arial.ttf", 50);
 	textCol.a = 255;
 	textCol.b = 199;
 	textCol.g = 160;
@@ -145,7 +145,7 @@ void Menu::loadFont()
 //loading a font with colour and size
 void Menu::loadFont(int fontSize, int r, int g, int b)
 {
-	textFont = TTF_OpenFont("AGENCYR.ttf", fontSize);
+	textFont = TTF_OpenFont("arial.ttf", fontSize);
 	textCol.a = 255;
 	textCol.b = b;
 	textCol.g = g;

@@ -12,6 +12,7 @@ public:
 	JSONReader();
 	JSONReader(std::string const & filename);
 	~JSONReader();
+	void Dialogue();
 
 
 private:

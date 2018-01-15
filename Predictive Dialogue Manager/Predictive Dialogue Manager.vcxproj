@@ -42,7 +42,7 @@
     <ClInclude Include="TextureContainer.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\FYP_Json.json" />
+    <None Include="FYP_Json.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
