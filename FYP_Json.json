@@ -69,15 +69,15 @@
       }
     },
     "Q5": {
-      "Question5": "After walking away you see a hoard of zombies attacking a car with survivors in it what do you do?",
+      "Question5": "",
       "Q5Answers": {
         "Answer1": {
-          "text": "Make an explosion to lure the zombies away from the car",
+          "text": "",
           "Path": "Q11",
           "Category": "Calm"
         },
         "Answer2": {
-          "text": "Run into the middle of the hoard",
+          "text": "",
           "Path": "Q12",
           "Category": "Rash"
         }

@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="JSON.cpp" />
+    <ClCompile Include="JSONReader.cpp" />
+    <ClCompile Include="JSONValue.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Prediciton.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Sprite.cpp" />
@@ -28,7 +32,11 @@
     <ClInclude Include="BasicTypes.h" />
     <ClInclude Include="EventListener.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="JSON.h" />
+    <ClInclude Include="JSONReader.h" />
+    <ClInclude Include="JSONValue.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Prediciton.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="TextureContainer.h" />
