@@ -5,12 +5,12 @@
       "Answers": {
         "Answer0": {
           "text": "You go around the house looking for a way in",
-          "Path": "Q2",
+          "Path": "Q1",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "You kick down the door",
-          "Path": "Q3",
+          "Path": "Q2",
           "Category": "Rash"
         }
       }
@@ -20,17 +20,17 @@
       "Answers": {
         "Answer0": {
           "text": "Walk away from the house",
-          "Path": "Q4",
+          "Path": "Q3",
           "Category": "Normal"
         },
         "Answer1": {
           "text": "Sneak into the house to see if there is any survivors ",
-          "Path": "Q5",
+          "Path": "Q4",
           "Category": "Calm"
         },
         "Answer2": {
           "text": "You run into the house and attack the Zombie",
-          "Path": "Q6",
+          "Path": "Q5",
           "Category": "Rash"
         }
       }
@@ -40,12 +40,12 @@
       "Answers": {
         "Answer0": {
           "text": "Sneak pass the zombie and head upstairs",
-          "Path": "Q7",
+          "Path": "Q6",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Pick up the baseball bat at the door and attack the zombie",
-          "Path": "Q8",
+          "Path": "Q7",
           "Category": "Rash"
         }
       }
@@ -55,12 +55,12 @@
       "Answers": {
         "Answer0": {
           "text": "Make an explosion to lure the zombies away from the car",
-          "Path": "Q9",
+          "Path": "Q8",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Run into the middle of the hoard",
-          "Path": "Q10",
+          "Path": "Q9",
           "Category": "Rash"
         }
       }
@@ -70,12 +70,12 @@
       "Answers": {
         "Answer0": {
           "text": "",
-          "Path": "Q11",
+          "Path": "Q10",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "",
-          "Path": "Q12",
+          "Path": "Q11",
           "Category": "Rash"
         }
       }

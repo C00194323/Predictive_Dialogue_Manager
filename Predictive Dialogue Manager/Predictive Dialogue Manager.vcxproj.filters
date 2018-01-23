@@ -39,6 +39,9 @@
     <ClCompile Include="Prediciton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StoryDialogue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -72,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Prediciton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryDialogue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

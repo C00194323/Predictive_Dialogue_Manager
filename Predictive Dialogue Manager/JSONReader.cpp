@@ -42,7 +42,7 @@ void JSONReader::loadJSONData(std::string const & filename)
 	}
 }
 
-void JSONReader::Dialogue()
+std::map<StoryDialogue,std::string>JSONReader::Dialogue()
 {
 	std::string dialogue("Story");
 	std::wstring wDialogue;
@@ -66,8 +66,7 @@ void JSONReader::Dialogue()
 		w_Answer.assign(answer.begin(), answer.end());
 
 		JSONObject answerObject = questionObject[w_Answer]->AsObject();
-
-		std::cout << questionString << std::endl;
+	
 		
 		for (int j = 0; j < answerObject.size(); j++)
 		{
@@ -81,12 +80,14 @@ void JSONReader::Dialogue()
 			std::wstring w_ansText;
 			w_ansText.assign(ansText.begin(), ansText.end());
 			std::string answerString(ansObj[w_ansText]->AsString().begin(), ansObj[w_ansText]->AsString().end());
+			std::cout <<"Answer : " + answerString << std::endl;
 			
 			// Path
 			std::string Path("Path");
 			std::wstring w_Path;
 			w_Path.assign(Path.begin(), Path.end());
 			std::string PathString(ansObj[w_Path]->AsString().begin(), ansObj[w_Path]->AsString().end());
+			std::cout << "Path : " + PathString << std::endl;
 
 			// Category
 			std::string Category("Category");
@@ -94,7 +95,13 @@ void JSONReader::Dialogue()
 			w_Category.assign(Category.begin(), Category.end());
 			std::string CategoryString(ansObj[w_Category]->AsString().begin(), ansObj[w_Category]->AsString().end());
 
-			std::cout << CategoryString << std::endl;
+			std::cout << "Category : " + CategoryString << std::endl;
+			
+			answerMap.insert((answerString,PathString),CategoryString);
+	
 		}
+
+		std::map<std::string, std::map<std::map<std::string, std::string>, std::string>> questionMap;
+		questionMap.insert(questionString,answerMap);
 	}
 }
