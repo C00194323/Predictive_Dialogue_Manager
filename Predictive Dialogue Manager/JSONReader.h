@@ -14,7 +14,9 @@ public:
 	JSONReader();
 	JSONReader(std::string const & filename);
 	~JSONReader();
-	std::map<StoryDialogue,std::string> JSONReader::Dialogue();
+	StoryDialogue Dialogue();
+	StoryAnswer Answer();
+	StoryQuestion Question();
 
 private:
 	JSONValue *m_value;

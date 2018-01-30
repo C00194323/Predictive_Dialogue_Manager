@@ -1,30 +1,6 @@
-﻿  StoryDialogue.cpp
-  Sprite.cpp
+﻿  JSONReader.cpp
+  Generating Code...
+c:\users\gameuser\desktop\fyp predictive dialogue manager\predictive_dialogue_manager\predictive dialogue manager\jsonreader.cpp(100): error C4716: 'JSONReader::Dialogue': must return a value
+  Compiling...
   Source.cpp
-  Renderer.cpp
-  Prediciton.cpp
-  Menu.cpp
-  JSONValue.cpp
-  JSONReader.cpp
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(1144): error C2675: unary '++': 'std::string' does not define this operator or a conversion to a type acceptable to the predefined operator
-  c:\users\gameuser\desktop\fyp predictive dialogue manager\predictive_dialogue_manager\predictive dialogue manager\jsonreader.cpp(101): note: see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::string>(_Iter,_Iter)' being compiled
-          with
-          [
-              _Kty=std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>,
-              _Ty=std::string,
-              _Pr=std::less<std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>>,
-              _Alloc=std::allocator<std::pair<const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>,std::string>>,
-              _Iter=std::string
-          ]
-  c:\users\gameuser\desktop\fyp predictive dialogue manager\predictive_dialogue_manager\predictive dialogue manager\jsonreader.cpp(101): note: see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::string>(_Iter,_Iter)' being compiled
-          with
-          [
-              _Kty=std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>,
-              _Ty=std::string,
-              _Pr=std::less<std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>>,
-              _Alloc=std::allocator<std::pair<const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>>,std::string>>,
-              _Iter=std::string
-          ]
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xtree(1146): error C2100: illegal indirection
-  JSON.cpp
   Generating Code...
