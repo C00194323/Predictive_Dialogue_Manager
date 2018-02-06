@@ -27,7 +27,7 @@
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Sprite.cpp" />
-    <ClCompile Include="StoryDialogue.cpp" />
+    <ClCompile Include="StoryManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicTypes.h" />
@@ -40,7 +40,8 @@
     <ClInclude Include="Prediciton.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="Sprite.h" />
-    <ClInclude Include="StoryDialogue.h" />
+    <ClInclude Include="Story.h" />
+    <ClInclude Include="StoryManager.h" />
     <ClInclude Include="TextureContainer.h" />
   </ItemGroup>
   <ItemGroup>

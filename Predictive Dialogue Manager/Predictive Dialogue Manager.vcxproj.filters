@@ -39,7 +39,7 @@
     <ClCompile Include="Prediciton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StoryDialogue.cpp">
+    <ClCompile Include="StoryManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -77,7 +77,10 @@
     <ClInclude Include="Prediciton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StoryDialogue.h">
+    <ClInclude Include="Story.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

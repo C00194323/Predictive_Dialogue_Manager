@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 	mainMenu->Render(renderer);*/
 
 	JSONReader jsonStory("FYP_Json.json");
-	jsonStory.Dialogue();
+	jsonStory.Answer();
 
 	
 
