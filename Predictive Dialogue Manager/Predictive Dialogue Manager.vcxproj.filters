@@ -88,5 +88,14 @@
     <None Include="FYP_Json.json">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\Fixtures\1Q1ATest.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Fixtures\CompleteExample.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Fixtures\Empty.json">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

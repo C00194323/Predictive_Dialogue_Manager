@@ -22,8 +22,8 @@ int main(int argc, char* argv[])
 	mainMenu=new Menu(renderer);
 	mainMenu->Render(renderer);*/
 
-	JSONReader jsonStory("FYP_Json.json");
-	jsonStory.Answer();
+	JSONReader jsonStory("1Q1ATest.json");
+	jsonStory.Question();
 
 	
 

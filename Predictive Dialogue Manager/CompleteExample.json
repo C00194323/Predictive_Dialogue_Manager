@@ -1,0 +1,19 @@
+{
+  "Story": {
+    "Q0": {
+      "Question": "You hear a noise in a house what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "You go around the house looking for a way in",
+          "Path": "Q1",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "You kick down the door",
+          "Path": "Q2",
+          "Category": "Rash"
+        }
+      }
+    }
+  }
+}

@@ -45,6 +45,9 @@
     <ClInclude Include="TextureContainer.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Fixtures\1Q1ATest.json" />
+    <None Include="..\Fixtures\CompleteExample.json" />
+    <None Include="..\Fixtures\Empty.json" />
     <None Include="FYP_Json.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
