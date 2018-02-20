@@ -2,7 +2,9 @@
   "Story": {
     "Q0": {
       "Question": "You hear a noise in a house what do you do?",
-      "Answers": "You go around the house looking for a way in"
+      "Answers": {
+        "Answer0": "You go around the house looking for a way in"
+       }
+      }
     }
-   }
 }

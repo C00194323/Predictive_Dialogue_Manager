@@ -2,29 +2,22 @@
 #include <iostream>
 #include "SDL2\include\SDL.h"
 #include <map>
-
-class StoryQuestion
-{
-public:
-	StoryQuestion() {};
-	~StoryQuestion() {};
+#include <vector>
 
 
-	void question(std::string tempquestion)
-	{
-		Question = tempquestion;
-		std::cout << Question.c_str() << std::endl;
-	}
-	std::string Question;	
-	
-
-};
 
 class StoryAnswer
 {
 public:
 	StoryAnswer() {};
 	~StoryAnswer() {};
+
+	StoryAnswer(std::string tempans, std::string temppath, std::string tempCategory)
+	{
+		answer = tempans;
+		Path = temppath;
+		Category = tempCategory;
+	}
 
 	void AnswerSet(std::string tempans, std::string temppath, std::string tempCategory)
 	{
@@ -42,7 +35,28 @@ public:
 	std::string Path;
 	std::string Category;
 
-	std::map<std::string, std::map<std::string, std::string>> completeAnswer;
+};
+
+class StoryQuestionAndAnswers
+{
+public:
+	StoryQuestionAndAnswers() {};
+	~StoryQuestionAndAnswers() {};
+
+
+	void question(std::string tempquestion)
+	{
+		Question = tempquestion;
+		std::cout << Question.c_str() << std::endl;
+	}
+
+	void answer(std::string Q, std::vector<StoryAnswer> A)
+	{
+		QuestionAndAnswer[Q] = A;
+	}
+
+	std::string Question;	
+	std::map <std::string, std::vector<StoryAnswer>> QuestionAndAnswer;
 };
 
 class StoryDialogue
@@ -50,16 +64,11 @@ class StoryDialogue
 public:
 	StoryDialogue() {};
 	~StoryDialogue() {};
-	StoryQuestion question;
-	StoryAnswer answer;
 
-	void addQuestion()
+	void addStoryPath(std::string ID, StoryQuestionAndAnswers dialogue)
 	{
-
+		completeDialogue[ID] = dialogue;
 	}
-	void addAnswer()
-	{
 
-	}
-	std::map <std::string, StoryQuestion> completeDialogue;
+	std::map <std::string, StoryQuestionAndAnswers> completeDialogue;
 };

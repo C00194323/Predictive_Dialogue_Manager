@@ -7,6 +7,7 @@
 #include <iostream>
 #include "Story.h"
 #include <map>
+#include <vector>
 
 class JSONReader
 {
@@ -15,8 +16,8 @@ public:
 	JSONReader(std::string const & filename);
 	~JSONReader();
 	StoryDialogue Dialogue();
-	StoryAnswer Answer();
-	StoryQuestion Question();
+	std::vector<StoryAnswer> Answer(std::string question);
+	StoryQuestionAndAnswers Question(int i);
 
 private:
 	JSONValue *m_value;
