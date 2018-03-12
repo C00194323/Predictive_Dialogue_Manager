@@ -70,5 +70,10 @@ public:
 		completeDialogue[ID] = dialogue;
 	}
 
+	StoryQuestionAndAnswers getQuestionAnswer(std::string ID)
+	{
+		return completeDialogue[ID];
+	}
+
 	std::map <std::string, StoryQuestionAndAnswers> completeDialogue;
 };

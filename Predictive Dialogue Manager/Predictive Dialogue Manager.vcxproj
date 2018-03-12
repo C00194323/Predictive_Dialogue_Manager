@@ -19,30 +19,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="JSON.cpp" />
     <ClCompile Include="JSONReader.cpp" />
     <ClCompile Include="JSONValue.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Prediciton.cpp" />
-    <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="StoryManager.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicTypes.h" />
     <ClInclude Include="EventListener.h" />
-    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="gamestates.h" />
+    <ClInclude Include="InputManager.h" />
     <ClInclude Include="JSON.h" />
     <ClInclude Include="JSONReader.h" />
     <ClInclude Include="JSONValue.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Prediciton.h" />
-    <ClInclude Include="Renderer.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Story.h" />
     <ClInclude Include="StoryManager.h" />
-    <ClInclude Include="TextureContainer.h" />
+    <ClInclude Include="TextureLoader.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Fixtures\1Q1ATest.json" />
@@ -121,11 +124,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDL2\include;$(SolutionDir)\MenuComponentDebug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;MenuComponent.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDL2\lib\x64;$(SolutionDir)\MenuComponentDebug\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -153,13 +156,13 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDL2\include;$(SolutionDir)\MenuComponentDebug\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\gameuser\Desktop\FYP Predictive Dialogue Manager\Predictive_Dialogue_Manager\Predictive_Dialogue_Manager\Predictive Dialogue Manager\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;MenuComponent.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDL2\lib\x64;$(SolutionDir)\MenuComponentDebug\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

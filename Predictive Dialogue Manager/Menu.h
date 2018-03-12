@@ -1,53 +1,25 @@
 #pragma once
-#include "GameObject.h"
+#include <MenuComponentSystem.h>
+#include "gamestates.h"
+#include <string>
+#include "TextureLoader.h"
 #include "EventListener.h"
-#include "SDL2\include\SDL_ttf.h"
-#include <vector>
 
 class Menu
 {
 public:
-	Menu(Renderer & r);
-	~Menu();
-
-	void Render(Renderer& r);
-
-	int getPressedItem() { return selectedItem; }
-
-	void onEvent(EventListener::Event evt);
-
-	SDL_Texture* loadSurface(Renderer& r);
-
-	void loadSurface(Renderer& r, int x, int y, int h, int w);
-
-	void loadFont();
-
-	void loadFont(int fontSize, int r, int g, int b);
-
-	void generateFontSurface(Renderer& r, Point2D pos, std::string textToWrite);
-
-	void MoveDown();
-
-	void MoveUp();
-
-	std::string path;
-
-	void Update(unsigned int deltaTime);
-
-	int selectedItem;
-
-	void fix();
-
+	Menu(){ m_Menu = new MenuSystem; };
+	~Menu() {};
+	void Init(SDL_Renderer * renderer, TextureLoader* t);
+	void Event(SDL_Renderer* renderer, gameStates::states & state, bool & gameRunning, SDL_Event * gameEvent);
+	void Render(SDL_Renderer* renderer, gameStates::states & state);
+	void onClick(string input, gameStates::states & state);
+	int getSelected() { return selected; }
 private:
-
-
-	std::vector<TextureContainer> TextureVector;
-	std::vector<TextureContainer> textContainer;
-	SDL_Texture* img = NULL;
-	SDL_Texture* textImg = NULL;
-	TTF_Font* textFont = NULL;
-
-	SDL_Color textCol = { 0,0,0 };
-
+	MenuSystem * m_Menu;
+	Sprite * m_background;
+	SDL_Renderer* tempRenderer;
+	SDL_Event* tempEvent;
+	int selected;
 };
 
