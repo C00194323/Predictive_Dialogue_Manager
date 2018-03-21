@@ -75,21 +75,19 @@ std::vector<StoryAnswer> JSONReader::Answer(std::string question)
 		std::wstring w_ansText;
 		w_ansText.assign(ansText.begin(), ansText.end());
 		std::string answerString(ansObj[w_ansText]->AsString().begin(), ansObj[w_ansText]->AsString().end());
-		std::cout << "Answer : " + answerString << std::endl;
+
 
 		// Path
 		std::string Path("Path");
 		std::wstring w_Path;
 		w_Path.assign(Path.begin(), Path.end());
 		std::string PathString(ansObj[w_Path]->AsString().begin(), ansObj[w_Path]->AsString().end());
-		std::cout << "Path : " + PathString << std::endl;
 
 		// Category
 		std::string Category("Category");
 		std::wstring w_Category;
 		w_Category.assign(Category.begin(), Category.end());
 		std::string CategoryString(ansObj[w_Category]->AsString().begin(), ansObj[w_Category]->AsString().end());
-		std::cout << "Category : " + CategoryString << std::endl;
 
 		completeAnswer.push_back(StoryAnswer(answerString, PathString, CategoryString));
 

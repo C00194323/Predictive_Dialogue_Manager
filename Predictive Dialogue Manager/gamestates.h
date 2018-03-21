@@ -7,6 +7,8 @@ public:
 	{
 		MAINMENU,
 		OPTIONSMENU,
+		Language,
+		English,Spanish,French,
 		GAME,
 		QUIT
 	};

@@ -1,0 +1,114 @@
+{
+  "Story": {
+    "Q0": {
+      "Question": "You hear a noise in a house what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "You go around the house looking for a way in",
+          "Path": "Q1",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "You kick down the door",
+          "Path": "Q2",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q1": {
+      "Question": "You find a broken window and see something moving what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Walk away from the house",
+          "Path": "Q3",
+          "Category": "Normal"
+        },
+        "Answer1": {
+          "text": "Sneak into the house to see if there is any survivors ",
+          "Path": "Q4",
+          "Category": "Calm"
+        },
+        "Answer2": {
+          "text": "You run into the house and attack the Zombie",
+          "Path": "Q5",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q2": {
+      "Question": "You see the zombie and hear movement upstairs what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Sneak pass the zombie and head upstairs",
+          "Path": "Q6",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Pick up the baseball bat at the door and attack the zombie",
+          "Path": "Q7",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q3": {
+      "Question": "After walking away you see a hoard of zombies attacking a car with survivors in it what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Make an explosion to lure the zombies away from the car",
+          "Path": "Q8",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Run into the middle of the hoard",
+          "Path": "Q9",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q4": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "Q10",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "Q11",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q5": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        }
+      }
+    },
+    "Q6": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        }
+      }
+    }
+  }
+}

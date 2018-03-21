@@ -1,0 +1,114 @@
+{
+  "Story": {
+    "Q0": {
+      "Question": "Oyes un ruido en una casa, ¿qué estás haciendo?",
+      "Answers": {
+        "Answer0": {
+          "text": "Recorre la casa buscando una forma de entrar",
+          "Path": "Q1",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Pierdes la puerta",
+          "Path": "Q2",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q1": {
+      "Question": "Encuentra una ventana rota y ve algo moviéndose, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "te alejas de la casa",
+          "Path": "Q3",
+          "Category": "Normal"
+        },
+        "Answer1": {
+          "text": "te escabulles dentro de la casa para ver si hay sobrevivientes",
+          "Path": "Q4",
+          "Category": "Calm"
+        },
+        "Answer2": {
+          "text": "Te topas con la casa y atacas al Zombie",
+          "Path": "Q5",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q2": {
+      "Question": "Ves al zombi y oigo el movimiento en el piso de arriba, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "sigues al zombi y te diriges al piso de arriba",
+          "Path": "Q6",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "recoges el bate de béisbol en la puerta y atacas al zombi",
+          "Path": "Q7",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q3": {
+      "Question": "Después de alejarse, ves un montón de zombis atacando a un auto con sobrevivientes. ¿Qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "haces una explosión para atraer a los zombies lejos del coche",
+          "Path": "Q8",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "te encuentras con el medio del tesoro",
+          "Path": "Q9",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q4": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "Q10",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "Q11",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q5": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        }
+      }
+    },
+    "Q6": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        }
+      }
+    }
+  }
+}

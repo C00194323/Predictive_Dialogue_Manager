@@ -1,0 +1,114 @@
+{
+  "Story": {
+    "Q0": {
+      "Question": "Vous entendez un bruit dans une maison que faites-vous?",
+      "Answers": {
+        "Answer0": {
+          "text": "Vous faites le tour de la maison à la recherche d'un moyen de",
+          "Path": "Q1",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Vous donnez un coup de pied à la porte",
+          "Path": "Q2",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q1": {
+      "Question": "Vous trouvez une fenêtre brisée et voyez quelque chose qui bouge, que faites-vous?",
+      "Answers": {
+        "Answer0": {
+          "text": "Éloignez-vous de la maison",
+          "Path": "Q3",
+          "Category": "Normal"
+        },
+        "Answer1": {
+          "text": "Faufiler dans la maison pour voir s'il y a des survivants",
+          "Path": "Q4",
+          "Category": "Calm"
+        },
+        "Answer2": {
+          "text": "Vous courez dans la maison et attaquez le Zombie",
+          "Path": "Q5",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q2": {
+      "Question": "Vous voyez le zombie et entendez le mouvement à l'étage que faites-vous?",
+      "Answers": {
+        "Answer0": {
+          "text": "Passe furtive le zombie et la tête à l'étage",
+          "Path": "Q6",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "vous prenez la batte de baseball à la porte et attaquez le zombie",
+          "Path": "Q7",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q3": {
+      "Question": "Après s'être éloigné, vous voyez un tas de zombies attaquer une voiture avec des survivants, que faites-vous?",
+      "Answers": {
+        "Answer0": {
+          "text": "vous faites une explosion pour attirer les zombies loin de la voiture",
+          "Path": "Q8",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "vous courez au milieu du trésor",
+          "Path": "Q9",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q4": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "Q10",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "Q11",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q5": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        }
+      }
+    },
+    "Q6": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,6 @@
 #include "TextureLoader.h"
 #include "gamestates.h"
 #include "EventListener.h"
-#include "InputManager.h"
 #include "Menu.h"
 #include <iostream>
 
@@ -31,7 +30,6 @@ private:
 	TextureLoader* m_textureLoader;
 
 	EventListener * eventListener;
-	InputHandler * input;
 	gameStates::states m_state;
 	MenuSystem* m_Menu;
 	StoryManager story;

@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="JSON.cpp" />
     <ClCompile Include="JSONReader.cpp" />
     <ClCompile Include="JSONValue.cpp" />
@@ -36,7 +35,6 @@
     <ClInclude Include="EventListener.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="gamestates.h" />
-    <ClInclude Include="InputManager.h" />
     <ClInclude Include="JSON.h" />
     <ClInclude Include="JSONReader.h" />
     <ClInclude Include="JSONValue.h" />
@@ -51,7 +49,9 @@
     <None Include="..\Fixtures\1Q1ATest.json" />
     <None Include="..\Fixtures\CompleteExample.json" />
     <None Include="..\Fixtures\Empty.json" />
-    <None Include="FYP_Json.json" />
+    <None Include="English.json" />
+    <None Include="French.json" />
+    <None Include="Spanish.json" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

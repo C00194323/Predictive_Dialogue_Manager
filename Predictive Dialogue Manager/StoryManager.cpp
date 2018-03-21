@@ -2,16 +2,35 @@
 
 StoryManager::StoryManager()
 {
-
-	JSONReader jsonStory("FYP_Json.json");
-	dialogue = jsonStory.Dialogue();
 	Question = new MenuSystem;
 	Answers = new MenuSystem;
-	currentPath = "Q3";
+	currentPath = "Q1";
 }
 
-void StoryManager::PrintStory(SDL_Renderer* r)
+void StoryManager::LoadJSON(EventListener* e)
 {
+	if (e->English == true)
+	{
+		JSONReader jsonStory("English.json");
+		dialogue = jsonStory.Dialogue();
+	}
+	if (e->French == true)
+	{
+		JSONReader jsonStory("French.json");
+		dialogue = jsonStory.Dialogue();
+	}
+	if (e->Spanish == true)
+	{
+		JSONReader jsonStory("Spanish.json");
+		dialogue = jsonStory.Dialogue();  
+	}
+}
+
+void StoryManager::PrintStory(SDL_Renderer* r, EventListener* e)
+{
+
+	LoadJSON(e);
+
 	StoryQuestionAndAnswers temp = dialogue.getQuestionAnswer(currentPath);
 	std::map<string, vector<StoryAnswer>>::iterator iter;
 	iter = temp.QuestionAndAnswer.begin();
@@ -23,11 +42,8 @@ void StoryManager::PrintStory(SDL_Renderer* r)
 	Answers->SetUpdateType("KEYBOARD", SDL_Color{ 255, 0, 255, 255 });
 	for (int i = 0; i < iter->second.size(); i++)
 	{
-		Answers->AddText("arial.ttf", iter->second.at(i).answer, SDL_Rect{ 550, 350 + (i*64), 100,50 }, false, r, true, SDL_Color{ 66, 232, 244, 0 }, SDL_Color{ 66, 232, 244, 0 });
+		Answers->AddText("arial.ttf", iter->second.at(i).answer, SDL_Rect{ 550, 350 + (i * 64), 100,50 }, false, r, true, SDL_Color{ 66, 232, 244, 0 }, SDL_Color{ 66, 232, 244, 0 });	
 	}
-	
-
-
 }
 
 void StoryManager::Render(SDL_Renderer* r)

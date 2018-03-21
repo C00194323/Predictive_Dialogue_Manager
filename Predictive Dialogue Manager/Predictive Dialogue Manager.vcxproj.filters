@@ -45,9 +45,6 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicTypes.h">
@@ -89,14 +86,8 @@
     <ClInclude Include="EventListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InputManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="FYP_Json.json">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="..\Fixtures\1Q1ATest.json">
       <Filter>Resource Files</Filter>
     </None>
@@ -104,6 +95,15 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="..\Fixtures\Empty.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="English.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="French.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Spanish.json">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
