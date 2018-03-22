@@ -15,6 +15,9 @@ public:
 	void Render(SDL_Renderer* renderer, gameStates::states & state);
 	void onClick(string input, gameStates::states & state,EventListener* eListener);
 	int getSelected() { return selected; }
+
+	string Language;
+
 private:
 	MenuSystem * m_Menu;
 	MenuSystem * m_LanguageMenu;

@@ -124,4 +124,9 @@ public:
 	/// </summary>
 	/// <param name="Renderer">SDL_Renderer needed to swtich the colour of the text</param>
 	void KeyboardTextUpdate(SDL_Renderer * Renderer);
+
+	/// <summary>
+	/// This method will clear the maps
+	/// </summary>
+	void clear();
 };

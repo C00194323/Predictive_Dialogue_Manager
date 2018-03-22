@@ -10,6 +10,7 @@ public:
 		Language,
 		English,Spanish,French,
 		GAME,
+		LOAD,
 		QUIT
 	};
 

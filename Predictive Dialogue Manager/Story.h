@@ -55,6 +55,24 @@ public:
 		QuestionAndAnswer[Q] = A;
 	}
 
+	std::string getPath(std::string A, std::string cp)
+	{
+		std::map <std::string, std::vector<StoryAnswer>>::iterator iter;
+		for (iter = QuestionAndAnswer.begin(); iter != QuestionAndAnswer.end(); iter++)
+		{
+			for (int i = 0; i < iter->second.size(); i++)
+			{
+				StoryAnswer temp = iter->second.at(i);
+				if (A == temp.answer)
+				{
+					return temp.Path;
+				}
+			}
+		}
+
+		return cp;
+	}
+
 	std::string Question;	
 	std::map <std::string, std::vector<StoryAnswer>> QuestionAndAnswer;
 };

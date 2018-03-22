@@ -4,6 +4,9 @@ void Menu::Init(SDL_Renderer* renderer, TextureLoader* t)
 {
 	t->addTexture("MainMenu", "MenuBackground.jpg", renderer);
 
+	//Set Default Language to English
+	Language = "English";
+
 	//Main Menu
 	m_Menu->SetUsingImages(false);
 	m_Menu->SetUpdateType("KEYBOARD", SDL_Color{ 255, 0, 255, 255 });
@@ -87,18 +90,18 @@ void Menu::onClick(string input, gameStates::states & state, EventListener* eLis
 	{
 		if (input == "English")
 		{
-			eListener->English = true;
-			state = gameStates::states::GAME;
+			Language = input;
+			state = gameStates::states::LOAD;
 		}
 		else if (input == "French")
 		{
-			eListener->French = true;
-			state = gameStates::states::GAME;
+			Language = input;
+			state = gameStates::states::LOAD;
 		}
 		else if (input == "Spanish")
 		{
-			eListener->Spanish = true;
-			state = gameStates::states::GAME;
+			Language = input;
+			state = gameStates::states::LOAD;
 		}
 	}
 }

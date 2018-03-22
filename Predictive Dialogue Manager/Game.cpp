@@ -36,14 +36,12 @@ Game::~Game() {}
 
 void Game::Run()
 {
-	
 	while (gameRunning)
 	{
-		if (m_state == gameStates::states::MAINMENU || m_state == gameStates::states::Language)
+		if (m_state == gameStates::states::MAINMENU || m_state == gameStates::states::Language || m_state == gameStates::states::GAME)
 		{
 			Event();
 		}
-		
 		SDL_SetRenderDrawColor(gameRenderer, 0, 0, 0, 255);
 		SDL_RenderClear(gameRenderer);
 		if (m_state == gameStates::states::MAINMENU|| m_state == gameStates::states::Language)
@@ -53,11 +51,11 @@ void Game::Run()
 
 		if (m_state == gameStates::states::GAME)
 		{
-			story.PrintStory(gameRenderer,eventListener);
 			story.Render(gameRenderer);
 		}
 		SDL_RenderPresent(gameRenderer);
 	}
+	
 }
 
 
@@ -67,7 +65,21 @@ void Game::Event()
 
 	while (SDL_PollEvent(&pollevent))
 	{
-		menu->Event(gameRenderer, m_state, gameRunning, &pollevent, eventListener);
-		//story.Event(gameRenderer, gameRunning, &pollevent);
+		if (m_state == gameStates::states::MAINMENU || m_state == gameStates::states::Language)
+		{
+			menu->Event(gameRenderer, m_state, gameRunning, &pollevent, eventListener);
+		}
+
+		if (m_state == gameStates::states::LOAD)
+		{
+			story.LoadJSON(menu->Language, gameRenderer);
+			story.PrintStory(gameRenderer);
+			m_state = gameStates::states::GAME;
+		}
+
+		if (m_state == gameStates::states::GAME)
+		{
+			story.Event(gameRenderer, gameRunning, &pollevent);
+		}
 	}
 }

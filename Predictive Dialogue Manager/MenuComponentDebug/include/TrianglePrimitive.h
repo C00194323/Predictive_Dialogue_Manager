@@ -22,6 +22,7 @@ public:
 	void Render(SDL_Renderer * Renderer);
 	void MoveDown();
 	void MoveUp();
+	void clear();
 
 	string CurrentType() { return TypeAtIndex[CurrentPoisition]; };
 };
