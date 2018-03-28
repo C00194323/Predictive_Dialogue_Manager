@@ -10,7 +10,6 @@ class StoryManager
 public:
 	StoryManager() ;
 	~StoryManager() {};
-	void LoadJSON(EventListener* e);
 	void LoadJSON(string language, SDL_Renderer* r);
 	void PrintStory(SDL_Renderer* r);
 	void Render(SDL_Renderer* r);

@@ -21,7 +21,7 @@
         "Answer0": {
           "text": "Walk away from the house",
           "Path": "Q3",
-          "Category": "Normal"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "Sneak into the house to see if there is any survivors ",
@@ -66,47 +66,287 @@
       }
     },
     "Q4": {
-      "Question": "",
+      "Question": "After sneaking into the house you hear a person crying what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
+          "text": "Sneak out of the house with the person.",
           "Path": "Q10",
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
+          "text": "Attack the zombie before saving the person",
           "Path": "Q11",
           "Category": "Rash"
         }
       }
     },
     "Q5": {
-      "Question": "",
+      "Question": "You kill the zombie but see a group coming towards the house what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
-          "Category": ""
+          "text": "Leave the house",
+          "Path": "Q12",
+          "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
-          "Category": ""
+          "text": "Run and attack the on coming zombies",
+          "Path": "Q13",
+          "Category": "Rash"
         }
       }
     },
     "Q6": {
+      "Question": "You sneak pass the zombie and find a person in one room and a zombie in the other what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Get the person to safety",
+          "Path": "Q14",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Attack the zombie",
+          "Path": "Q15",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q7": {
+      "Question": "You hit the zombie with the baseball bat, however the loud bang attracts near by zombies what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Run away from them",
+          "Path": "Q16",
+        "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Search for more weapons",
+          "Path": "Q17",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q8": {
+      "Question": "After you set the car on fire, you see the hoard come towards you what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Run into a nearby house to escape from them",
+          "Path": "Q18",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Pick up something to use as a weapon and attack them as the get close.",
+          "Path": "Q19",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q9": {
+      "Question": "You kill a few zombies and the people escaped from the car now the rest of the hoard is attacking you what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Escape from them by getting into the nearest vechile and driving away",
+          "Path": "Q20",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay and try kill the rest of the zombies",
+          "Path": "Q21",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q10": {
+      "Question": "You sneak out of the house with the person and are seeing by a zombie across the street what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Run away to safety with the person",
+          "Path": "Q22",
+         "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Create a destraction for the person to escape",
+          "Path": "Q23",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q11": {
+      "Question": "You knock the zombie to the ground but it gets back up what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Get the person and leave the house",
+          "Path": "Q24",
+         "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Continue fighting the zombie",
+          "Path": "Q25",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q12": {
+      "Question": "You get a text from Tom saying he and max were safe in the school what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Go to the school",
+          "Path": "Q26",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay on your own",
+          "Path": "Q27",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q13": {
+      "Question": "You kill the zombies what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Head away from the zombies in the centre of town",
+          "Path": "Q28",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Head towards the zombies in the centre of town",
+          "Path": "Q29",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q14": {
       "Question": "",
       "Answers": {
         "Answer0": {
           "text": "",
           "Path": "",
-          "Category": ""
+         "Category": "Calm"
         },
         "Answer1": {
           "text": "",
           "Path": "",
-          "Category": ""
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q15": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q16": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q17": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q18": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+        "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q19": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+        "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q20": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+         "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q21": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+         "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q22": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": "Rash"
         }
       }
     }

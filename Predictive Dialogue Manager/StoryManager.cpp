@@ -9,28 +9,9 @@ StoryManager::StoryManager()
 	Answers->SetUsingImages(false);
 	Answers->SetUpdateType("KEYBOARD", SDL_Color{ 255, 0, 255, 255 });
 
-	timer = 0.5f;
+	timer = 0.1f;
 
 	currentPath = "Q0";
-}
-
-void StoryManager::LoadJSON(EventListener* e)
-{
-	/*if (e->English == true)
-	{
-		JSONReader jsonStory("English.json");
-		dialogue = jsonStory.Dialogue();
-	}
-	if (e->French == true)
-	{
-		JSONReader jsonStory("French.json");
-		dialogue = jsonStory.Dialogue();
-	}
-	if (e->Spanish == true)
-	{
-		JSONReader jsonStory("Spanish.json");
-		dialogue = jsonStory.Dialogue();  
-	}*/
 }
 
 void StoryManager::LoadJSON(string language, SDL_Renderer* r)
