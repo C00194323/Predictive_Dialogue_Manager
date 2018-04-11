@@ -100,12 +100,12 @@
       "Answers": {
         "Answer0": {
           "text": "Get the person to safety",
-          "Path": "Q14",
+          "Path": "Q10",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Attack the zombie",
-          "Path": "Q15",
+          "Path": "Q11",
           "Category": "Rash"
         }
       }
@@ -115,12 +115,12 @@
       "Answers": {
         "Answer0": {
           "text": "Run away from them",
-          "Path": "Q16",
+          "Path": "Q12",
         "Category": "Calm"
         },
         "Answer1": {
           "text": "Search for more weapons",
-          "Path": "Q17",
+          "Path": "Q13",
           "Category": "Rash"
         }
       }
@@ -130,12 +130,12 @@
       "Answers": {
         "Answer0": {
           "text": "Run into a nearby house to escape from them",
-          "Path": "Q18",
+          "Path": "Q14",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Pick up something to use as a weapon and attack them as the get close.",
-          "Path": "Q19",
+          "Path": "Q15",
           "Category": "Rash"
         }
       }
@@ -145,12 +145,12 @@
       "Answers": {
         "Answer0": {
           "text": "Escape from them by getting into the nearest vechile and driving away",
-          "Path": "Q20",
+          "Path": "Q16",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Stay and try kill the rest of the zombies",
-          "Path": "Q21",
+          "Path": "Q17",
           "Category": "Rash"
         }
       }
@@ -160,12 +160,12 @@
       "Answers": {
         "Answer0": {
           "text": "Run away to safety with the person",
-          "Path": "Q22",
+          "Path": "Q18",
          "Category": "Calm"
         },
         "Answer1": {
           "text": "Create a destraction for the person to escape",
-          "Path": "Q23",
+          "Path": "Q19",
           "Category": "Rash"
         }
       }
@@ -175,12 +175,12 @@
       "Answers": {
         "Answer0": {
           "text": "Get the person and leave the house",
-          "Path": "Q24",
+          "Path": "Q20",
          "Category": "Calm"
         },
         "Answer1": {
           "text": "Continue fighting the zombie",
-          "Path": "Q25",
+          "Path": "Q21",
           "Category": "Rash"
         }
       }
@@ -190,12 +190,12 @@
       "Answers": {
         "Answer0": {
           "text": "Go to the school",
-          "Path": "Q26",
+          "Path": "Q22",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Stay on your own",
-          "Path": "Q27",
+          "Path": "Q23",
           "Category": "Rash"
         }
       }
@@ -205,93 +205,93 @@
       "Answers": {
         "Answer0": {
           "text": "Head away from the zombies in the centre of town",
-          "Path": "Q28",
+          "Path": "Q24",
           "Category": "Calm"
         },
         "Answer1": {
           "text": "Head towards the zombies in the centre of town",
-          "Path": "Q29",
+          "Path": "Q25",
           "Category": "Rash"
         }
       }
     },
     "Q14": {
-      "Question": "",
+      "Question": "You run into the house but when you open the door you are confronted by a zombie",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
+          "text": "Run back out of the house",
+          "Path": "Q26",
          "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "You attack the zombie unarmed",
+          "Path": "Q27",
           "Category": "Rash"
         }
       }
     },
     "Q15": {
-      "Question": "",
+      "Question": "You find a broken fence and attack them however there seems to be to many",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
+          "text": "Escape from them by getting into the nearest vechile and driving away",
+          "Path": "Q16",
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "Stay and try kill the rest of the zombies",
+          "Path": "Q17",
           "Category": "Rash"
         }
       }
     },
     "Q16": {
-      "Question": "",
+      "Question": "You hot wire a car to get to safety what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
+          "text": "Head away from the hoard to your friends in the school",
+          "Path": "Q22",
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "Stay alone in the zombie apocalypse",
+          "Path": "Q23",
           "Category": "Rash"
         }
       }
     },
     "Q17": {
-      "Question": "",
+      "Question": "You kill all the zombies but you get hurt in the process what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
+          "text": "you find a medkit or bandages to close the wound",
+          "Path": "Q28",
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "you leave it open and continue fighting zombies",
+          "Path": "Q29",
           "Category": "Rash"
         }
       }
     },
     "Q18": {
-      "Question": "",
+      "Question": "You run to a petrol station where there is other survivors",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
+          "text": "Stay with the other survivors",
+          "Path": "Q30",
         "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "Leave the survivors and head out on your own",
+          "Path": "Q23",
           "Category": "Rash"
         }
       }
     },
     "Q19": {
-      "Question": "",
+      "Question": "You run in and attack the zombie",
       "Answers": {
         "Answer0": {
           "text": "",
