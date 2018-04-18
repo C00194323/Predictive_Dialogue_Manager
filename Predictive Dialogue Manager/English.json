@@ -116,7 +116,7 @@
         "Answer0": {
           "text": "Run away from them",
           "Path": "Q12",
-        "Category": "Calm"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "Search for more weapons",
@@ -161,7 +161,7 @@
         "Answer0": {
           "text": "Run away to safety with the person",
           "Path": "Q18",
-         "Category": "Calm"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "Create a destraction for the person to escape",
@@ -176,7 +176,7 @@
         "Answer0": {
           "text": "Get the person and leave the house",
           "Path": "Q20",
-         "Category": "Calm"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "Continue fighting the zombie",
@@ -221,7 +221,7 @@
         "Answer0": {
           "text": "Run back out of the house",
           "Path": "Q26",
-         "Category": "Calm"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "You attack the zombie unarmed",
@@ -281,7 +281,7 @@
         "Answer0": {
           "text": "Stay with the other survivors",
           "Path": "Q30",
-        "Category": "Calm"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "Leave the survivors and head out on your own",
@@ -291,60 +291,195 @@
       }
     },
     "Q19": {
-      "Question": "You run in and attack the zombie",
+      "Question": "You run out and knock down the zombies, what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
-        "Category": "Calm"
+          "text": "run to safety after the survivor ",
+          "Path": "Q30",
+          "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "Attack the on coming zombies  ",
+          "Path": "Q17",
           "Category": "Rash"
         }
       }
     },
     "Q20": {
-      "Question": "",
+      "Question": "The person is safe what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
-         "Category": "Calm"
+          "text": "Stay with the other survivors",
+          "Path": "Q30",
+          "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "Kill the Zombies",
+          "Path": "Q17",
           "Category": "Rash"
         }
       }
     },
     "Q21": {
-      "Question": "",
+      "Question": "You kill the zombie",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
-         "Category": "Calm"
+          "text": "find the other survivors",
+          "Path": "Q18",
+          "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
+          "text": "Attack the on coming zombies ",
+          "Path": "Q17",
           "Category": "Rash"
         }
       }
     },
     "Q22": {
-      "Question": "",
+      "Question": "You go to the school and find your friends what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
+          "text": "leave the school with your friends",
+          "Path": "Q26",
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
+          "text": "leave the school on your own",
+          "Path": "Q26",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q23": {
+      "Question": "you see the zombies ahead what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Turn around",
+          "Path": "Q24",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Go forward and attack the zombies",
+          "Path": "Q25",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q24": {
+      "Question": "You head away from the centre of town what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Leave the town",
+          "Path": "Q31",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay in the town",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q25": {
+      "Question": "You kill a lot of the zombies and see the school what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Go into the school",
+          "Path": "Q26",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Ignore the entrance to the school",
+          "Path": "Q26",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q26": {
+      "Question": "You see a car with the keys still in the ignition what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Get into the car and drive away",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Drive into the centre of town",
+          "Path": "Q30",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q27": {
+      "Question": "You knock the zombie down and escape",
+      "Answers": {
+        "Answer0": {
+          "text": "Get to safety",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay in the town and fight",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q28": {
+      "Question": "You close the wound and leave the house what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Try escape",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay and fight for your town",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q29": {
+      "Question": "you start to become infected what do you do?",
+      "Answers": {
+        "Answer0": {
+          "text": "Try get help",
+          "Path": "Q30 ",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay in the town",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q30": {
+      "Question": "You see the exit from town what do you do",
+      "Answers": {
+        "Answer0": {
+          "text": "Leave",
+          "Path": "Q31",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Stay in the town and fight",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q31": {
+      "Question": "Thanks For Playing",
+      "Answers": {
+        "Answer0": {
+          "text": "Play Again ?",
+          "Path": "Q0",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Exit by pressing the X in the corner",
           "Path": "",
           "Category": "Rash"
         }
