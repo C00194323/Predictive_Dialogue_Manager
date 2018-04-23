@@ -45,11 +45,14 @@ void StoryManager::Event(SDL_Renderer * renderer, bool & gameRunning, SDL_Event 
 {
 	if (timer <= 0.0f)
 	{
-		if (gameEvent->type == SDL_QUIT)
+		if (gameEvent->type == SDL_QUIT )
 		{
 			gameRunning = false;
 		}
-
+		if (currentPath == "Q32")
+		{
+			gameRunning = false;
+		}
 		if (gameEvent->type == SDL_KEYDOWN)
 		{
 			if (gameEvent->key.keysym.sym == SDLK_RETURN || gameEvent->key.keysym.sym == SDLK_KP_ENTER)

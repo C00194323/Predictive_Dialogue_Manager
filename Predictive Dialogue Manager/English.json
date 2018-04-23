@@ -144,7 +144,7 @@
       "Question": "You kill a few zombies and the people escaped from the car now the rest of the hoard is attacking you what do you do?",
       "Answers": {
         "Answer0": {
-          "text": "Escape from them by getting into the nearest vechile and driving away",
+          "text": "Escape from them by getting into the nearest vehicle and driving away",
           "Path": "Q16",
           "Category": "Calm"
         },
@@ -164,7 +164,7 @@
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "Create a destraction for the person to escape",
+          "text": "Create a distraction for the person to escape",
           "Path": "Q19",
           "Category": "Rash"
         }
@@ -234,7 +234,7 @@
       "Question": "You find a broken fence and attack them however there seems to be to many",
       "Answers": {
         "Answer0": {
-          "text": "Escape from them by getting into the nearest vechile and driving away",
+          "text": "Escape from them by getting into the nearest vehicle and driving away",
           "Path": "Q16",
           "Category": "Calm"
         },
@@ -480,8 +480,23 @@
         },
         "Answer1": {
           "text": "Exit by pressing the X in the corner",
-          "Path": "",
+          "Path": "Q32",
           "Category": "Rash"
+        }
+      }
+    },
+    "Q32": {
+      "Question": "",
+      "Answers": {
+        "Answer0": {
+          "text": "",
+          "Path": "",
+          "Category": ""
+        },
+        "Answer1": {
+          "text": "",
+          "Path": "",
+          "Category": ""
         }
       }
     }

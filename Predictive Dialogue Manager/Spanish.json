@@ -21,7 +21,7 @@
         "Answer0": {
           "text": "te alejas de la casa",
           "Path": "Q3",
-          "Category": "Normal"
+          "Category": "Calm"
         },
         "Answer1": {
           "text": "te escabulles dentro de la casa para ver si hay sobrevivientes",
@@ -66,36 +66,426 @@
       }
     },
     "Q4": {
-      "Question": "",
+      "Question": "Después de entrar furtivamente a la casa, oyes a una persona llorando ¿qué haces?",
       "Answers": {
         "Answer0": {
-          "text": "",
+          "text": "Sal de la casa con la persona.",
           "Path": "Q10",
           "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
+          "text": "Ataca al zombi antes de salvar a la persona",
           "Path": "Q11",
           "Category": "Rash"
         }
       }
     },
     "Q5": {
-      "Question": "",
+      "Question": "Matas al zombi pero ves a un grupo que viene hacia la casa, ¿qué haces?",
       "Answers": {
         "Answer0": {
-          "text": "",
-          "Path": "",
-          "Category": ""
+          "text": "Salir de la casa",
+          "Path": "Q12",
+          "Category": "Calm"
         },
         "Answer1": {
-          "text": "",
-          "Path": "",
-          "Category": ""
+          "text": "Corre y ataca a los futuros zombis",
+          "Path": "Q13",
+          "Category": "Rash"
         }
       }
     },
     "Q6": {
+      "Question": "¿Fuiste a hurtadillas al zombi y encontraste a una persona en una habitación y un zombi en la otra? ¿Qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Llevar a la persona a la seguridad",
+          "Path": "Q10",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Ataca al zombie",
+          "Path": "Q11",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q7": {
+      "Question": "Golpea al zombi con el bate de béisbol, sin embargo, el fuerte golpe atrae a los zombis, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Huir de ellos",
+          "Path": "Q12",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Busca más armas",
+          "Path": "Q13",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q8": {
+      "Question": "Después de prender fuego al automóvil, ves que el tesoro viene hacia ti ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Corre a una casa cercana para escapar de ellos",
+          "Path": "Q14",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Recoge algo para utilizar como arma y ataca cuando te acerques.",
+          "Path": "Q15",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q9": {
+      "Question": "Matas a algunos zombis y la gente escapó del auto ahora que el resto del tesoro te está atacando ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Escápese de ellos metiéndose en el vehículo más cercano y alejándose",
+          "Path": "Q16",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate y trata de matar al resto de los zombies",
+          "Path": "Q17",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q10": {
+      "Question": "Te escapas de la casa con la persona y ves a un zombie al otro lado de la calle, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Corre a la seguridad con la persona",
+          "Path": "Q18",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Crea una distracción para que la persona escape",
+          "Path": "Q19",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q11": {
+      "Question": "Derribas al zombi pero vuelve a subir ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Consigue a la persona y sal de la casa",
+          "Path": "Q20",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Continúa luchando contra el zombie",
+          "Path": "Q21",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q12": {
+      "Question": "Recibes un mensaje de texto de Tom diciendo que él y Max estaban a salvo en la escuela, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Ve a la escuela",
+          "Path": "Q22",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate por tu cuenta",
+          "Path": "Q23",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q13": {
+      "Question": "Matas a los zombis, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Dirígete lejos de los zombies en el centro de la ciudad",
+          "Path": "Q24",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Dirígete hacia los zombies en el centro de la ciudad",
+          "Path": "Q25",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q14": {
+      "Question": "Te topas con la casa pero cuando abres la puerta te enfrentas con un zombie",
+      "Answers": {
+        "Answer0": {
+          "text": "Corre fuera de la casa",
+          "Path": "Q26",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Atacas al zombi desarmado",
+          "Path": "Q27",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q15": {
+      "Question": "Usted encuentra una valla rota y los ataca, sin embargo parece que hay muchos",
+      "Answers": {
+        "Answer0": {
+          "text": "Escápese de ellos metiéndose en el vehículo más cercano y alejándose",
+          "Path": "Q16",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate y trata de matar al resto de los zombies",
+          "Path": "Q17",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q16": {
+      "Question": "Conectaste un cable para llegar a un lugar seguro, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Dirígete lejos del tesoro a tus amigos en la escuela",
+          "Path": "Q22",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate solo en el apocalipsis zombie",
+          "Path": "Q23",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q17": {
+      "Question": "Matas a todos los zombies pero te lastimas en el proceso ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "encuentras un botiquín o vendajes para cerrar la herida",
+          "Path": "Q28",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "lo dejas abierto y continúas luchando contra zombis",
+          "Path": "Q29",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q18": {
+      "Question": "Corres a una gasolinera donde hay otros sobrevivientes",
+      "Answers": {
+        "Answer0": {
+          "text": "Quédate con los otros sobrevivientes",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Deje a los sobrevivientes y salga por su cuenta",
+          "Path": "Q23",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q19": {
+      "Question": "Si sales corriendo y derrotas a los zombies, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "correr a la seguridad después de que el sobreviviente",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Ataca a los zombies que vienen",
+          "Path": "Q17",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q20": {
+      "Question": "La persona está segura, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Quédate con los otros sobrevivientes",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Mata a los zombis",
+          "Path": "Q17",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q21": {
+      "Question": "Matas al zombie",
+      "Answers": {
+        "Answer0": {
+          "text": "encuentra a los otros sobrevivientes",
+          "Path": "Q18",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Ataca a los zombies que vienen",
+          "Path": "Q17",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q22": {
+      "Question": "Vas a la escuela y encuentras a tus amigos, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "deja la escuela con tus amigos",
+          "Path": "Q26",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "deja la escuela por tu cuenta",
+          "Path": "Q26",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q23": {
+      "Question": "ves a los zombis adelante, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "\"Giro de vuelta",
+          "Path": "Q24",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Avanza y ataca a los zombis",
+          "Path": "Q25",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q24": {
+      "Question": "Te alejas del centro de la ciudad, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Salir de la ciudad?",
+          "Path": "Q31",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate en la ciudad",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q25": {
+      "Question": "Matas a muchos zombis y ves a la escuela ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Ir a la escuela",
+          "Path": "Q26",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Ignora la entrada a la escuela",
+          "Path": "Q26",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q26": {
+      "Question": "Ves un auto con las llaves aún encendidas ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Métete en el auto y vete",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Conducir en el centro de la ciudad",
+          "Path": "Q30",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q27": {
+      "Question": "Tu derribas al zombie y escapas",
+      "Answers": {
+        "Answer0": {
+          "text": "Obtener seguridad",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate en la ciudad y lucha",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q28": {
+      "Question": "Cierras la herida y sales de la casa, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Intenta escapar",
+          "Path": "Q30",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate y lucha por tu ciudad",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q29": {
+      "Question": "empiezas a infectarse, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Intenta obtener ayuda",
+          "Path": "Q30 ",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate en la ciudad",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q30": {
+      "Question": "Ves la salida de la ciudad, ¿qué haces?",
+      "Answers": {
+        "Answer0": {
+          "text": "Salir",
+          "Path": "Q31",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Quédate en la ciudad y lucha",
+          "Path": "Q31",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q31": {
+      "Question": "Gracias por jugar",
+      "Answers": {
+        "Answer0": {
+          "text": "juega de nuevo",
+          "Path": "Q0",
+          "Category": "Calm"
+        },
+        "Answer1": {
+          "text": "Salir presionando la X en la esquina",
+          "Path": "",
+          "Category": "Rash"
+        }
+      }
+    },
+    "Q32": {
       "Question": "",
       "Answers": {
         "Answer0": {
